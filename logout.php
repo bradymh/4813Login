@@ -8,7 +8,7 @@
     <body>
         <div class="login-box">
             <h2>You have Succesfully Logged Out</h2>
-            <form>
+            <form action="index.html">
                 <button>Return to Login Page</button>
             </form> 
         </div>

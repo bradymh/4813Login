@@ -8,10 +8,10 @@
     <body>
         <div class="login-box">
             <h2>Profile</h2>
-            Welcome <?php echo $_POST["name"]; ?><br>
+            Welcome <?php echo $_POST["username"]; ?><br>
             Your email address is: <?php echo $_POST["password"]; ?>
 
-            <form>
+            <form action="logoout.php">
                 <button>Logout</button>
             </form> 
         </div>
